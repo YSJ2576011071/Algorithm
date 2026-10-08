@@ -6,7 +6,7 @@ long long solution(int n) {
     if (n == 1) return 1;
     if (n == 2) return 2;
 
-    vector<long long> dp(n + 1);
+    vector<long long> dp(n + 1,0);
     dp[1] = 1;
     dp[2] = 2;
 
